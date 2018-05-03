@@ -2,6 +2,11 @@
 <html lang="en-us">
 
   {% include head.html %}
+  <head>
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
+  </head>
 
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
