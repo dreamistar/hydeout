@@ -2,6 +2,7 @@
 layout: post
 title: 하루패드를 공부해보자 _ 01
 categories: Github초짜탈출기
+use_math: true
 ---
 
 ## 0. 하루패드란? 
